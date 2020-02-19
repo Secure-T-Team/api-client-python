@@ -27,6 +27,6 @@ setup(
         "pyparsing==2.1.10",
         "python-dateutil==2.6.0",
         "requests>=2.20.0",
-        "six==1.10.0",
+        "six>=1.10.0",
     ],
 )
