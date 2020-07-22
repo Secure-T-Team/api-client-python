@@ -177,6 +177,7 @@ class CampaignResults(Model):
     _valid_properties = {
         'id': None,
         'name': None,
+        'template_id': None,
         'results': [],
         'status': None,
         'timeline': [],
