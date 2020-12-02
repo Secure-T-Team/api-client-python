@@ -25,7 +25,7 @@ setup(
         "appdirs==1.4.0",
         "packaging==16.8",
         "pyparsing==2.1.10",
-        "python-dateutil==2.6.0",
+        "python-dateutil==2.8.0",
         "requests>=2.20.0",
         "six>=1.10.0",
     ],
