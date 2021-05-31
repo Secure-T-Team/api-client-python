@@ -67,6 +67,7 @@ class Campaign(Model):
         'smtp': None,
         'url': None,
         'groups': [],
+        'redirect_url': None,
     }
 
     def __init__(self, **kwargs):
