@@ -68,6 +68,8 @@ class Campaign(Model):
         'url': None,
         'groups': [],
         'redirect_url': None,
+        'campaign_template_id': None,
+        'email_send_end_date': None,
     }
 
     def __init__(self, **kwargs):
