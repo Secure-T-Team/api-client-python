@@ -70,9 +70,7 @@ class Campaign(Model):
         'redirect_url': None,
         'campaign_template_id': None,
         'email_send_end_date': None,
-        'with_attachment': None,
-        'attachment_type': None,
-        'attachment_name': None,
+        'attachments': None,
     }
 
     def __init__(self, **kwargs):
