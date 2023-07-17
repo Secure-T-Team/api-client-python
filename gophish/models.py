@@ -70,6 +70,7 @@ class Campaign(Model):
         'redirect_url': None,
         'campaign_template_id': None,
         'email_send_end_date': None,
+        'headers': None,
         'attachments': None,
     }
 
